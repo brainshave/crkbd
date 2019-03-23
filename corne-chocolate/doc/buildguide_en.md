@@ -139,11 +139,12 @@ Test each key by shorting pads on them with tweezers, for example. The key press
 
 You can skip LED installation the first time you're building your keyboard. It can be done even after the whole keyboard is built.
 
-The SK6812MINI is quite senstitive to heat. It's best to keep the soldering iron temperature between 220℃ to 270℃. Even with that, the LED can be damaged when the iron is touching it for too long. It's best to take a little break between soldering on each pair of contacts to prevent the LED from overheating.
+The SK6812MINI is quite senstitive to heat. It's best to keep the soldering iron temperature between 220℃ to 270℃. Even with that, the LED can be damaged if the iron is touching it for too long. It's best to take a little break between soldering of each pair of contacts to prevent the LED from overheating.
 
-まずは取り付ける位置の確認です。
+First, check where LEDs go
 
-1 ~ 6は裏面側(Undergrow)が光るようにし、7 ~ 27は表側（Backlight）が光るようにはんだづけを行います。下記がLEDを取り付ける位置です(画像はCorne Cherryから転記)。
+There'se space for from 1 to 6 LEDs on the back side of each PCB for the underglow and from 7 to 27 on the top.
+(Picture borrowed from Corne Cherry guide)
 
 ![19](https://user-images.githubusercontent.com/736191/46822561-c6f58d00-cdc6-11e8-90d4-de015410a7a4.png)
 ![20](https://user-images.githubusercontent.com/736191/46822569-cc52d780-cdc6-11e8-9602-f6265a2c876d.png)
