@@ -1,50 +1,50 @@
 # Build Guide
 
-こちらは Corne Chocolate のビルドガイドになります。
-[Corne Cherry はこちら](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_jp.md)。
+This is the build guide for Corne Chocolate,
+[the build guide for Corne Cherry is here (in Japanese)](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_jp.md).
 
-## 部品
-### 必須
-| 名前 | 数 | 備考 | 
+## Parts
+### Required
+| Name | Amount | Comment | 
 |:-|:-|:-|
-| PCB | 2枚 | |
-| トッププレート | 2枚 | |
-| ボトムプレート | 2枚 | PCBタイプとアクリルタイプが選べます |
-| ProMicro保護プレート | 2枚 | |
-| ProMicro | 2枚 | |
-| TRRSジャック | 2個 | |
-| タクトスイッチ | 2個 | |
-| ダイオード | 42本 | チップ部品のみに対応 |
-| Kailh PCBソケット(Choc用) | 42個 | |
-| キースイッチ | 42個 | Chocにのみ対応 |
-| キーキャップ | 42個 | 1u 40個、1.5u 2個 |
-| OLEDモジュール | 2枚 | |
-| ピンヘッダ 4連 | 2つ | |
-| ピンソケット4連 | 2つ | |
-| スペーサー M2 3.5mm | 10本 | |
-| スペーサー M2 8mm | 4本 | |
-| ネジ M2 3mm | 28本 | |
-| クッションゴム | 8個 | |
-| TRS(3極)ケーブル | 1本 | TRRS(4極)ケーブルでも可 |
-| Micro USBケーブル | 1本 | |
+| PCB | 2 | reversible |
+| top plate | 2 | |
+| bottom plate | 2 | either PCB or acrylic plate |
+| ProMicro protective plate | 2 | |
+| ProMicro controller | 2 | |
+| TRRS (jack) socket | 2 | |
+| tact switch | 2 | |
+| diode | 42 | チップ部品のみに対応 |
+| Kailh Choc PCB sockets | 42 | |
+| keyswitch | 42 | only "Choc" type |
+| key cap | 42 | 1u 40、1.5u 2 |
+| OLED module | 2 | |
+| 4-pin header | 2 | |
+| 4-pin header socket | 2 | |
+| M2 3.5mm stand-off | 10 | |
+| M2 8mm stand-off | 4 | |
+| M2 3mm screw | 28 | |
+| cushion rubber | 8 | |
+| 3-pole TRS cable | 1 | 4-pole cable works too |
+| Micro USB cable | 1 | |
 
-### オプション
-| 名前 | 数 | 備考 |
+### Optional
+| Name | Amount | Comment |
 |:-|:-|:-|
-| SK6812MINI | 54個 | 上向き実装 42個、下向き実装 12個 |
+| SK6812MINI | 54 | downward-facing 42, upward-facing 12 |
 
-## 事前準備
-実装の途中でProMicroにファームを入れる作業がありますが、ファームをビルドする環境を整備するのは時間がかかるのではじめに取り掛かっておくことをおすすめします。
-https://docs.qmk.fm/#/newbs_getting_started こちら等を参考にし、OSに合わせて必要なものをインストールしておきます(インストールに時間がかかるため動かしつつ実装を進めると効率的です)。
+## Before Getting Started
+It's probably best to start preparing your build environment for the ProMicro's firmware ahead of time. Some steps of installation take a bit of time so perhaps they can run while you're putting the keyboard together.
 
-## 実装
+https://docs.qmk.fm/#/newbs_getting_started 
 
-PCBはリバーシブルになっているので、最初にどちらを左用/右用にするか決めます。
+## Build
+
+PCBs are reversible so decide now which one is going be the left and which is going to be the right one.
 
 ![01](https://user-images.githubusercontent.com/736191/52534345-dcce8b00-2d83-11e9-9b6a-b1f9f4b75519.png)
 
-### ダイオード
-
+### Diodes
 
 チップ部品のダイオードのはんだづけを行います。
 Corne Cherryではどちらの面に取り付けるかは自由でしたが、Corne Chocolateでは**必ず裏面に取り付けてください**。
