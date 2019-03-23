@@ -137,14 +137,17 @@ Test each key by shorting pads on them with tweezers, for example. The key press
 
 ![18](https://user-images.githubusercontent.com/736191/52534775-fd4d1400-2d88-11e9-8fcc-9916160a6478.png)
 
-You can skip LED installation the first time you're building your keyboard. It can be done even after the whole keyboard is built.
+You can skip LED installation the first time you're building your keyboard.
+It can be done even after the whole keyboard is built.
 
-The SK6812MINI is quite senstitive to heat. It's best to keep the soldering iron temperature between 220℃ to 270℃. Even with that, the LED can be damaged if the iron is touching it for too long. It's best to take a little break between soldering of each pair of contacts to prevent the LED from overheating.
+The SK6812MINI is quite senstitive to heat.
+It's best to keep the soldering iron temperature between 220℃ to 270℃.
+Even with that, the LED can be damaged if the iron is touching it for too long.
+It's best to take a little break between soldering of each pair of contacts to prevent the LED from overheating.
 
-First, check where LEDs go
+First, check where LEDs go:
 
-There'se space for from 1 to 6 LEDs on the back side of each PCB for the underglow and from 7 to 27 on the top.
-(Picture borrowed from Corne Cherry guide)
+Numbers from 1 to 6 are for the underglow LEDs when mounted on the backside and numbers from 7 to 27 are for lighiting individual keys. (Picture borrowed from Corne Cherry guide)
 
 ![19](https://user-images.githubusercontent.com/736191/46822561-c6f58d00-cdc6-11e8-90d4-de015410a7a4.png)
 ![20](https://user-images.githubusercontent.com/736191/46822569-cc52d780-cdc6-11e8-9602-f6265a2c876d.png)
@@ -165,7 +168,8 @@ There'se space for from 1 to 6 LEDs on the back side of each PCB for the undergl
 ![24](https://user-images.githubusercontent.com/736191/52534807-7c424c80-2d89-11e9-9580-0daffc862ebb.png)
 ![25](https://user-images.githubusercontent.com/736191/52534811-85331e00-2d89-11e9-9752-c40ffab23419.png)
 
-### Kailh PCBソケット
+### Kailh PCB Sockets
+
 ![26](https://user-images.githubusercontent.com/736191/52534832-be6b8e00-2d89-11e9-82e6-be53dd82bf59.png)
 
 裏面の両側のパッドにはんだを盛ります。後から追加するのが難しいので予め多めに盛ってください。
