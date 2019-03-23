@@ -101,10 +101,14 @@ Put in enough solder to make a permanent jumper. If it doesn't work, flux that w
 
 ![11](https://user-images.githubusercontent.com/736191/52534637-99761b80-2d87-11e9-958a-c6ca836a7936.png)
 
+Fit the pin header within the white frame from the top side on the PCB and solder the pins sticking out on the back side. Then solder the ProMicro board upside-down.
+
 ピンヘッダを白い枠に当てはめるようにはんだづけし、そこにProMicroの裏面を上にしてはんだづけします。
 
 ![12](https://user-images.githubusercontent.com/736191/52534641-a266ed00-2d87-11e9-8dcb-832b90556ac2.png)
 ![13](https://user-images.githubusercontent.com/736191/52534643-aa269180-2d87-11e9-9c05-67924d235968.png)
+
+Please refer to [Helix's build guide](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro) when using spring pin header (?)
 
 なおスプリングピンヘッダを利用する場合は [Helix のビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)を参考にしてください。
 
@@ -112,18 +116,23 @@ Put in enough solder to make a permanent jumper. If it doesn't work, flux that w
 
 ![14](https://user-images.githubusercontent.com/736191/52534716-4bade300-2d88-11e9-9fc4-e96787870d07.png)
 
+First, put in the 4-pin header into the socket, place the OLED module on top and solder the 4 pins.
+
 OLED用のピンソケットにピンヘッダを先に差し込み、その後からピンヘッダとOLEDモジュールをはんだづけします。
 このときOLEDモジュールが浮きやすいので指で押さえつけながら浮かないように気をつけます。
 
 ![15](https://user-images.githubusercontent.com/736191/52534720-5e281c80-2d88-11e9-9b76-164d9b63692f.png)
 ![16](https://user-images.githubusercontent.com/736191/52534722-67b18480-2d88-11e9-94d0-e3c899bcc020.png)
 
-### 動作確認
-ProMicroとOLEDモジュールを付けた段階で動作確認をすることをおすすめします(一番最後にやると問題の切り分けが難しくなる)。
+### Test
 
-動作確認をする場合は先に下記の「ファームウェア」の章を参考にしてcrkbd用のファームウェアをProMicroに入れてください（必ず両側に入れてください）。
+It's bets to test the board at this point to see if everything so far was soldered on properly. We can debug using the ProMicros and OLED screens.
 
-動作確認は左手側はMicroUSBでPCとつなぎ、左手側と右手側をTRSケーブルで接続させて行います。ジャック等の不良等もありえるので、片方ずつではなく必ず左右を接続させてから動作確認をしてください。ここまで正しくできていれば、PCBソケットを取り付けるパッドをピンセット等でショートさせるとOLEDモジュールに押されたキーが表示されます。
+Flash **both** ProMicros a described in the [Firmware](#firmware) section below.
+
+Connect the left side of the keyboard to a PC with a MicroUSB cable and connect the halfs with a TRS cable. You can also connect both separately if there's seem to be a problem with TRS jacks.
+
+Test each key by shorting pads on them with tweezers, for example. The key pressed should be shown on the OLED screen.
 
 ![17](https://user-images.githubusercontent.com/736191/52534757-b95a0f00-2d88-11e9-9a81-467a9efbb935.png)
 
