@@ -60,12 +60,12 @@ Here's how to align diodes with the markings on PCB: the diode has a "|||" mark 
 
 ![03](https://user-images.githubusercontent.com/736191/54487560-cb285800-48da-11e9-9e1e-aafaacf5723c.jpg)
 
-チップ部品を取り付けるコツですが、まずは予備ハンダとしてパッドの右側のみにハンダを盛ります。
+Remeber how we aligned the boards two pictures back? Great, now put some solder on the right contact plate of each socket. (**on the "◁" side**, not the "|" side)
 
 ![04](https://user-images.githubusercontent.com/736191/52534531-0c7e9280-2d86-11e9-9636-ba582cdae265.png)
 
-次に予備ハンダを溶かすようにしてダイオードの片足をはんだ付けします。
-このとき、逆作用ピンセットを利用すると力を入れずともチップ部品をしっかりと持つことができ、位置合わせとはんだづけに集中できるのでおすすめです。
+Now solder the diode to the contact plate we've just prepared. This is best done by holding the diode with reverse-action tweezers (so you don't have to use any force just to keep the diode in tweezers and you can concentrate on proper alignment).
+
 またはんだごてがあつすぎたり、はんだを触りすぎたりするとはんだに含まれるフラックスが気化してきれいにはんだの山ができることがありますが、あとで修復できるのでこの時点ではパーツを付けることだけを意識すれば大丈夫です。
 
 ![05](https://user-images.githubusercontent.com/736191/52534541-320b9c00-2d86-11e9-982c-45ec7f7b7741.png)
