@@ -78,20 +78,21 @@ If you put in too little solder, you can always add a bit more. If it piles up, 
 
 ![07](https://user-images.githubusercontent.com/736191/52534577-b78f4c00-2d86-11e9-9c6d-64893dce2754.png)
 
-### TRRSジャック、リセットスイッチ、ピンソケット
+### TRRS Sockets, Reset Buttons and 4-Pin Header Sockets
 
 ![08](https://user-images.githubusercontent.com/736191/52534580-bfe78700-2d86-11e9-9fa6-bdde5283af5b.png)
 
-下記の写真通りにTRRSジャック、リセットスイッチ、ピンソケットをPCBの**表面にはんだづけします**。
-ダイオードを裏側につけているので、その反対側の面になります。
+Solder the TRRS sockets, reset buttons and 4-pin header sockets to the **top** sides of PCBs. Remember that diodes go on the **bottom side**, so this is going to be the **opposite side from diodes**.
 
 ![09](https://user-images.githubusercontent.com/736191/52534621-40a68300-2d87-11e9-9749-14459d2b1eac.png)
 
-### OLEDモジュールのためのジャンパ
-OLEDモジュールを利用する場合は下記のようにジャンパします。
-なお**表面のみジャンパしてください**。
+### Jumpers for OLED Modules
+
+To support OLED modules, make a jumper with solder between these 4 pairs of pins like on the picture, **on the top surface**.
 
 ![10](https://user-images.githubusercontent.com/736191/52534622-4d2adb80-2d87-11e9-8935-f7dc5fab4c38.png)
+
+Put in enough solder to make a permanent jumper. If it doesn't work, flux that was in the solder might've evaporated. Apply more solder or add separate flux.
 
 ジャンパがうまくいかない場合はおそらくはんだの量が少ないか、はんだに含まれるフラックスが気化してしまっています。
 その場合は、はんだを多めに使うか、別途フラックスを塗るとうまくジャンパができます。
@@ -107,7 +108,7 @@ OLEDモジュールを利用する場合は下記のようにジャンパしま�
 
 なおスプリングピンヘッダを利用する場合は [Helix のビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)を参考にしてください。
 
-### OLEDモジュール
+### OLED Module
 
 ![14](https://user-images.githubusercontent.com/736191/52534716-4bade300-2d88-11e9-9fc4-e96787870d07.png)
 
