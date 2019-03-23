@@ -110,15 +110,12 @@ Fit the pin header within the white frame from the top side on the PCB and solde
 
 Please refer to [Helix's build guide](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro) when using spring pin header (?)
 
-なおスプリングピンヘッダを利用する場合は [Helix のビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)を参考にしてください。
-
 ### OLED Module
 
 ![14](https://user-images.githubusercontent.com/736191/52534716-4bade300-2d88-11e9-9fc4-e96787870d07.png)
 
-First, put in the 4-pin header into the socket, place the OLED module on top and solder the 4 pins.
+First, put in the 4-pin header into the socket, place the OLED module on top and solder the 4 pins on the OLED board.
 
-OLED用のピンソケットにピンヘッダを先に差し込み、その後からピンヘッダとOLEDモジュールをはんだづけします。
 このときOLEDモジュールが浮きやすいので指で押さえつけながら浮かないように気をつけます。
 
 ![15](https://user-images.githubusercontent.com/736191/52534720-5e281c80-2d88-11e9-9b76-164d9b63692f.png)
@@ -136,17 +133,13 @@ Test each key by shorting pads on them with tweezers, for example. The key press
 
 ![17](https://user-images.githubusercontent.com/736191/52534757-b95a0f00-2d88-11e9-9a81-467a9efbb935.png)
 
-## LED（オプション）
+## Optional LED lights
 
 ![18](https://user-images.githubusercontent.com/736191/52534775-fd4d1400-2d88-11e9-8fcc-9916160a6478.png)
 
-SK6812MINIを取り付けていきます。
-なお、LEDの取り付けは完成後からでも行えるので、実装が心配な方はこの章を飛ばして、まずは完成させることをおすすめします。
+You can skip LED installation the first time you're building your keyboard. It can be done even after the whole keyboard is built.
 
-SK6812MINIは非常に熱に弱く、簡単に壊れます。
-温調機能がついたはんだごてを利用し、220℃ ~ 270℃ぐらいの温度で作業することをおすすめします。
-また温度を調整しても長い時間コテをLEDに当てていると破損するので、なるべくすばやくはんだづけすることを心がけます。
-LEDは４つずつはんだづけを行いますが、一度に４つ行わず、２つずつ行ってLEDの温度の上昇を防ぐと破損しづらくなるのでおすすめです。
+The SK6812MINI is quite senstitive to heat. It's best to keep the soldering iron temperature between 220℃ to 270℃. Even with that, the LED can be damaged when the iron is touching it for too long. It's best to take a little break between soldering on each pair of contacts to prevent the LED from overheating.
 
 まずは取り付ける位置の確認です。
 
