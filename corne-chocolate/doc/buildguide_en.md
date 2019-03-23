@@ -64,18 +64,17 @@ Remeber how we aligned the boards two pictures back? Great, now put some solder 
 
 ![04](https://user-images.githubusercontent.com/736191/52534531-0c7e9280-2d86-11e9-9636-ba582cdae265.png)
 
-Now solder the diode to the contact plate we've just prepared. This is best done by holding the diode with reverse-action tweezers (so you don't have to use any force just to keep the diode in tweezers and you can concentrate on proper alignment).
+Now solder the diode to the contact plate we've just prepared. This is best done by holding the diode with reverse-action tweezers (so you don't have to use any force just to keep the diode in tweezers and you can concentrate on proper alignment). Remember that this time you're soldering on the umarked side of the diode, **not** the one with "|||" mark.
 
 またはんだごてがあつすぎたり、はんだを触りすぎたりするとはんだに含まれるフラックスが気化してきれいにはんだの山ができることがありますが、あとで修復できるのでこの時点ではパーツを付けることだけを意識すれば大丈夫です。
 
 ![05](https://user-images.githubusercontent.com/736191/52534541-320b9c00-2d86-11e9-982c-45ec7f7b7741.png)
 
-次にもう片方をはんだづけします。少量のはんだで十分なのでつけすぎに注意します。
-つけすぎてしまった場合は吸い取り線で取るか、はんだごてですくうようにすれば取れます。
+Now solder in the other side of the diode. Use only very small amount of solder. If you put in too much, take it out with desoldering wire or with the soldering iron.
 
 ![06](https://user-images.githubusercontent.com/736191/52534553-56677880-2d86-11e9-872e-ea374c8f6824.png)
 
-また予備はんだ側のはんだの量が少ない場合は追加ではんだづけを重ねて行い、山になっている場合はフラックスを上から塗って熱すればきれいになります。
+If you put in too little solder, you can always add a bit more. If it piles up, try applying flux and heat it with soldering iron.
 
 ![07](https://user-images.githubusercontent.com/736191/52534577-b78f4c00-2d86-11e9-9c6d-64893dce2754.png)
 
