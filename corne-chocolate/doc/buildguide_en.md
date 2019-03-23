@@ -4,7 +4,9 @@ This is the build guide for Corne Chocolate,
 [the build guide for Corne Cherry is here (in Japanese)](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_jp.md).
 
 ## Parts
+
 ### Required
+
 | Name | Amount | Comment | 
 |:-|:-|:-|
 | PCB | 2 | reversible |
@@ -17,7 +19,7 @@ This is the build guide for Corne Chocolate,
 | diode | 42 | チップ部品のみに対応 |
 | Kailh Choc PCB sockets | 42 | |
 | keyswitch | 42 | only "Choc" type |
-| key cap | 42 | 1u 40、1.5u 2 |
+| key cap | 42 | 1u * 40, 1.5u * 2 |
 | OLED module | 2 | |
 | 4-pin header | 2 | |
 | 4-pin header socket | 2 | |
@@ -29,11 +31,13 @@ This is the build guide for Corne Chocolate,
 | Micro USB cable | 1 | |
 
 ### Optional
+
 | Name | Amount | Comment |
 |:-|:-|:-|
 | SK6812MINI | 54 | downward-facing 42, upward-facing 12 |
 
 ## Before Getting Started
+
 It's probably best to start preparing your build environment for the ProMicro's firmware ahead of time. Some steps of installation take a bit of time so perhaps they can run while you're putting the keyboard together.
 
 https://docs.qmk.fm/#/newbs_getting_started 
@@ -46,16 +50,13 @@ PCBs are reversible so decide now which one is going be the left and which is go
 
 ### Diodes
 
-チップ部品のダイオードのはんだづけを行います。
-Corne Cherryではどちらの面に取り付けるかは自由でしたが、Corne Chocolateでは**必ず裏面に取り付けてください**。
-表面に実装するとトッププレートと干渉してしまいます。
+**Please solder diodes on the back side of the PCB.** It's important because otherwise they'll be interfering with the top plate. (This is different from Corne Cherry where they can be put on either side.)
 
-チップ部品は非常に小さいためピンセット及び逆作用ピンセットがあると作業がしやすくなります。
-**ダイオードは取り付ける向きが決まっている**ので、次の写真のように予め取り付ける列と行を揃えて配置しておくとスムーズに進められます。
+It's recommened to handle diodes with tweezers because of their miniscule size. **Remember that electric current in diodes only goes one way**. To make it easier to orientate diodes correctly, align your PCBs like on the picture below.
 
 ![02](https://user-images.githubusercontent.com/736191/52534466-1b187a00-2d85-11e9-8ce3-bb13067a1b29.png)
 
-ダイオードの向きは次のとおりです。チップ部品の「|||」印が、ダイオードマーク「|◁」の「|」の方に向けるように取り付けます(画像はCorne Cherryから転記)。 
+Here's how to align diodes with the markings on PCB: the diode has a "|||" mark on one side. This side of the diode must be on the side where the "|" of the "|◁" mark on the PCB is. (picture borrowed from Corne Cherry guide)
 
 ![03](https://user-images.githubusercontent.com/736191/54487560-cb285800-48da-11e9-9e1e-aafaacf5723c.jpg)
 
